@@ -1,6 +1,7 @@
-##USO
-##Mostrar las tablas registradas:
-```python sql_lite_explorer.py "C:\Users\<USER>\AppData\Local\Microsoft\Edge\User Data\Default\History"
+## USO
+## Mostrar las tablas registradas:
+```
+python sql_lite_explorer.py "C:\Users\<USER>\AppData\Local\Microsoft\Edge\User Data\Default\History"
 ```
 (Probablemente este bloqueado por edge por lo que se debe copiar el archivo)
 
@@ -32,6 +33,7 @@ Recuento de registros por tabla:
 - 'edge_visits': 0 registros
 - 'edge_favicons': 0 registros
 ```
-##Mostrar registros
-```python sql_lite_explorer.py "C:\Users\<USER>\Desktop\History" -registros <NOMBRE_TABLA>
+## Mostrar registros
+```
+python sql_lite_explorer.py "C:\Users\<USER>\Desktop\History" -registros <NOMBRE_TABLA>
 ```
