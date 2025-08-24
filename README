@@ -1,0 +1,35 @@
+USO
+Mostrar las tablas registradas:
+
+(Probablemente este bloqueado por edge por lo que se debe copiar el archivo)
+python sql_lite_explorer.py "C:\Users\<USER>\AppData\Local\Microsoft\Edge\User Data\Default\History"
+Ejemplo:
+Analizando la base de datos: 'C:\Users\Yamil\Desktop\History'
+
+Recuento de registros por tabla:
+- 'meta': 4 registros
+- 'urls': 895 registros
+- 'sqlite_sequence': 3 registros
+- 'visits': 1725 registros
+- 'visit_source': 0 registros
+- 'keyword_search_terms': 186 registros
+- 'downloads': 1 registros
+- 'downloads_url_chains': 1 registros
+- 'downloads_slices': 0 registros
+- 'segments': 56 registros
+- 'segment_usage': 93 registros
+- 'content_annotations': 917 registros
+- 'context_annotations': 1617 registros
+- 'clusters': 0 registros
+- 'clusters_and_visits': 0 registros
+- 'cluster_keywords': 0 registros
+- 'cluster_visit_duplicates': 0 registros
+- 'visited_links': 1087 registros
+- 'history_sync_metadata': 0 registros
+- 'edge_keyword_search_terms_source': 0 registros
+- 'edge_urls': 0 registros
+- 'edge_visits': 0 registros
+- 'edge_favicons': 0 registros
+
+Mostrar registros
+python sql_lite_explorer.py "C:\Users\<USER>\Desktop\History" -registros <NOMBRE_TABLA>
