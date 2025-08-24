@@ -6,7 +6,7 @@ python sql_lite_explorer.py "C:\Users\<USER>\AppData\Local\Microsoft\Edge\User D
 (Probablemente este bloqueado por edge por lo que se debe copiar el archivo)
 
 Ejemplo:
-Analizando la base de datos: 'C:\Users\<USER>\Desktop\History'
+Analizando la base de datos: 'C:\Users\<USER>\AppData\Local\Microsoft\Edge\User Data\Default\History_copia'
 ```
 Recuento de registros por tabla:
 - 'meta': 4 registros
@@ -35,5 +35,5 @@ Recuento de registros por tabla:
 ```
 ## Mostrar registros
 ```
-python sql_lite_explorer.py "C:\Users\<USER>\Desktop\History" -registros <NOMBRE_TABLA>
+python sql_lite_explorer.py "C:\Users\<USER>\AppData\Local\Microsoft\Edge\User Data\Default\History_copia" -registros <NOMBRE_TABLA>
 ```
